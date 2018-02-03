@@ -28,10 +28,6 @@ body {
   font-weight: bold;
 }
 
-.row-eq-height {
-  display: flex;
-}
-
 .professional-details {
   background: #fff !important;
   padding-right: 30px;
@@ -107,4 +103,10 @@ body {
 .education dd {
   margin-left: 250px;
   font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .row-eq-height {
+    display: flex;
+  }
 }
