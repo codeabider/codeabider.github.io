@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "MetaWebPro-Bold";
+    src: url("../fonts/MetaWebPro-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetaWebPro-Normal";
+    src: url("../fonts/MetaWebPro-Normal.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetaWebPro-Medium";
+    src: url("../fonts/MetaWebPro-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+body {
+  font-family: "MetaWebPro-Normal";
+  background-color: #787878;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.row-eq-height {
+  display: flex;
+}
+
+.professional-details {
+  background: #fff !important;
+  padding-right: 30px;
+}
+
+.professional-details section {
+  margin: 40px 0;
+}
+
+.experience ul {
+  padding-left: 20px;
+}
+
+.level {
+  width: 30%;
+}
+
+.tech-tool {
+  display: inline-block;
+}
+
+.level .full, .level .empty, .level .half {
+  background: url(../images/star-full.svg) no-repeat !important;
+  background-size: 100% !important;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.level .half {
+  width: 8px;
+  background-size: 188% !important;
+  margin: 0 7px 0 0;
+}
+
+.level .empty {
+  background-image: url(../images/star-empty.svg) !important;
+}
+
+.personal-details {
+  background: #b5c488 !important;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.personal-details section {
+  margin: 45px 0;
+}
+
+.personal-details h1, .personal-details h2, .personal-details a {
+  color: #0d3c55;
+}
+
+.personal-details dt {
+  text-align: left;
+  width: 120px;
+}
+
+.personal-details address {
+  margin-bottom: 0;
+}
+
+.personal-details dd {
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+
+.education dt {
+  width: 250px;
+  font-weight: normal;
+}
+
+.education dd {
+  margin-left: 250px;
+  font-weight: bold;
+}
